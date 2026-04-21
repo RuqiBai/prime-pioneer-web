@@ -2,115 +2,63 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: Ruqi Bai
+  given: Ruqi
+  family: Bai
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
 postnominals:
   - PhD
-  - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ""
+role: Machine Learning Engineer
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a Machine Learning Engineer on the AKI team at Apple, currently working on the LLM Summarizer of Siri. I earned my Ph.D. in Machine Learning at Purdue University supervised by [Dr. David I. Inouye](https://www.davidinouye.com/). My current work revolves around post-training techniques like SFT, RL, and Prompt Optimization.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: AKI Team @ Apple Service Engineering, Apple Inc.
+    url: https://www.apple.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:ruqi@apple.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/ruqi-bai/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AF9nlQtyammzmnUl9OJfINsHmpg_4oNj6AHUcPPC_KYeWQJdLlZItZD9bx2LJPJBhPPBJG1bIz_vGpJ2UrBH1g&user=OtQf4BcAAAAJ
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Foundation Models
+  - SFT
+  - RLHF / DPO
+  - Prompt Optimization
+  - Robustness Machine Learning
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Ph.D. in Machine Learning
+    institution: Purdue University
+    start: 2019-08-01
+    end: 2025-05-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Robustness Machine Learning focusing on causal-inspired domain generalization, distribution learning, and RL application.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Machine Learning Engineer
+    org: Apple
+    start: 2025-09-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      AKI Team @ Apple Service Engineering. Working on the LLM Summarizer (Gemini, AFM) using post-training techniques like SFT, RL, and Prompt Optimization.
 
 skills:
   - name: Technical Skills
     items:
-      - label: Python
-        level: 5
       - label: Machine Learning
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
+      - label: Python
         level: 5
-      - label: Conference Presentations
+      - label: LLM Post-Training
+        level: 5
+      - label: Distributed Training
         level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
