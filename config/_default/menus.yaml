@@ -8,6 +8,3 @@ main:
   - name: News
     url: /#news
     weight: 13
-  - name: Pre College RL Course
-    url: /rl-course/
-    weight: 14
